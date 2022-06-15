@@ -78,8 +78,8 @@ bot.on("message", (msg) => {
 
 if (process.env.NODE_ENV === "production") {
     console.info("🚨 Starting Prod");
-    bot.login(process.env.BOT_TOKEN);
+    bot.login(process.env.OTg2NTIxNTAzMTk1NjIzNDQ0.GIlZd9.UneHkiEV9jHBPxjmu0_OxLL93-gM3uGwVE5keY);
 } else {
     console.info("🔧 Starting Dev");
-    bot.login(process.env.DEV_BOT_TOKEN);
+    bot.login(process.env.OTg2NTIxNTAzMTk1NjIzNDQ0.GIlZd9.UneHkiEV9jHBPxjmu0_OxLL93-gM3uGwVE5keY);
 }
